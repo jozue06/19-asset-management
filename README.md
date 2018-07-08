@@ -22,12 +22,24 @@
 * create a test that uploads one of these files to your route
 * use `multer` to parse the file upload request
 * use the `aws-sdk` to assist with uploading
-* create user, profile, and image models, with relational connections
-* combine your API, Auth, and Upload modules into a single application
-* Following a sign-in (or OAuth creation), create a profile model entry, connected to the user id
-* Following the upload of an image, create a new record in the image collection, connected to the profile
-* Using populate, return a user's full profile AND a list of all images they've uploaded as a JSON object
+
+
+
+
+* !!!create user, profile, and image models, with relational connections!!!
+
+* !!!combine your API, Auth, and Upload modules into a single application!!!
+
+* !!!Following a sign-in (or OAuth creation), create a profile model entry, connected to the user id!!!
+
+* !!!Following the upload of an image, create a new record in the image collection, connected to the profile!!!
+
+* !!!Using populate, return a user's full profile AND a list of all images they've uploaded as a JSON object!!!
+
 * Later, we can use this API to feed a pintrest like application. 
+
+
+
 
 #### Tests
 * `POST` - **200** - test that the upload worked and a resource object is returned
